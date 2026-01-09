@@ -47,14 +47,14 @@ Logistic Regression was used as the classifier.
 
 ## Results:
 Method	Accuracy
-Filter-based Feature Selection	76%
-Wrapper Method (RFE)	80%
-Linear Discriminant Analysis (LDA)	80%
+-> Filter-based Feature Selection	76%
+-> Wrapper Method (RFE)	80%
+-> Linear Discriminant Analysis (LDA)	80%
 
 ## Key Observations
-Wrapper methods outperformed filter-based selection due to model-aware feature optimization.
-LDA achieved competitive accuracy by reducing multicollinearity and enhancing class separation.
-More complex models (e.g., QDA) were tested but showed poor generalization, likely due to multicollinearity and limited sample size.
+-> Wrapper methods outperformed filter-based selection due to model-aware feature optimization.
+-> LDA achieved competitive accuracy by reducing multicollinearity and enhancing class separation.
+-> More complex models (e.g., QDA) were tested but showed poor generalization, likely due to multicollinearity and limited sample size.
 
 ## Conclusion
 The project demonstrates that simpler, assumption-aware models like Logistic Regression combined with LDA or RFE can perform effectively on structured numerical data.
@@ -68,6 +68,6 @@ Accuracy alone was not prioritized; instead, emphasis was placed on correct meth
 ### Matplotlib
 
 ## Future Work
-Cross-validation for more robust evaluation
-Feature engineering using technical indicators
-Comparison with tree-based models
+1. Cross-validation for more robust evaluation
+2. Feature engineering using technical indicators
+3. Comparison with tree-based models
